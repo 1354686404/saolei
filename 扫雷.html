@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="扫雷.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- 开始游戏按钮 -->
+        <div class="btn" id="btn"></div>
+        <!-- 游戏难度 -->
+        <div class="grade" id="grade">
+            <div class="selectClass">
+                <span>请 选 择 游 戏 难 度</span>
+            </div>
+            <div class="easy" id="easy"></div>
+            <div class="common" id="common"></div>
+            <div class="difficult" id="difficult"></div>
+        </div>
+        
+        <!-- 上方雷数显示 -->
+        <div class="flagBox" id="flagBox">
+            当前剩余雷数：
+            <span id="score">10</span>
+        </div>
+        <!-- 中间游戏区域 -->
+        <div class="box" id="box"></div>
+        <!-- 游戏结束弹出框 -->
+        <div class="alertBox" id="alertBox">
+            <div class="alertImg" id="alertImg">
+                <div class="close" id="close"></div>
+            </div>
+        </div>
+    </div>
+    <script src="扫雷.js"></script>
+</body>
+</html>
